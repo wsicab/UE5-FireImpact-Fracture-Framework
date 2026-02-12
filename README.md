@@ -51,3 +51,10 @@ Conventional real-time fracture methods often fail to account for the influence 
    You can now run a simulation that catches fire, spreads, and then destroys it.
 
 ## Results
+
+<img width="4400" height="1035" alt="2" src="https://github.com/user-attachments/assets/9b6c0980-767c-4f23-b854-1930be44f5f5" />
+
+<img width="2906" height="1307" alt="3" src="https://github.com/user-attachments/assets/b5ac9738-2466-4d3d-a2a0-65beb6c511a8" />
+
+
+
