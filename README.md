@@ -56,5 +56,6 @@ Conventional real-time fracture methods often fail to account for the influence 
 
 <img width="2906" height="1307" alt="3" src="https://github.com/user-attachments/assets/b5ac9738-2466-4d3d-a2a0-65beb6c511a8" />
 
+<img width="2754" height="1022" alt="4" src="https://github.com/user-attachments/assets/9c9e549b-c04d-4625-94f9-b6d8c7d883ce" />
 
 
