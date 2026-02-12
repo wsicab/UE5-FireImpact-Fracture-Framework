@@ -67,7 +67,8 @@ The system operates through a synchronized three-layer architecture connected vi
 
 <img width="4400" height="1035" alt="2" src="https://github.com/user-attachments/assets/9b6c0980-767c-4f23-b854-1930be44f5f5" />
 
-<img width="2906" height="1307" alt="3" src="https://github.com/user-attachments/assets/b5ac9738-2466-4d3d-a2a0-65beb6c511a8" />
+<img width="3895" height="1033" alt="3" src="https://github.com/user-attachments/assets/71d89b7b-d976-46b4-a2ff-5063cfe1138c" />
+
 
 <img width="2754" height="1022" alt="4" src="https://github.com/user-attachments/assets/9c9e549b-c04d-4625-94f9-b6d8c7d883ce" />
 
