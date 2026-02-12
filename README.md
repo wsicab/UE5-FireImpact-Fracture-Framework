@@ -29,7 +29,19 @@ Conventional real-time fracture methods often fail to account for the influence 
  
 
 ## Pipeline
+The system operates through a synchronized three-layer architecture connected via TCP/IP:
+### Step 1 - Real-Time Flame Simualtion (UE5 C++)
++ Heat Diffusion : Propagates heat along mesh connectivity
++ Combustion States : Vertices transition through states, Unburned->Heating->Igniting->Burning->BurnedOut.
++ Material Weight Update : Local strength decreases progressively during combusion.
 
+### Step 2 - Commmunication & Trigger (TCP/IP)
++ When a collision is detected, the engine extracts vertex positions and material weights to transmit tem to the Python module.
+
+### Step 3 - Fracture Computation (Python)
++ Impact Amplification : Modulates sensitivity using the material weight
++ The module solves for fragmentation and returns updated mesh topology (indices and attributes)to the engine.
+  
 
 ## Requirement
 + OS: Windows 10/11
@@ -37,7 +49,8 @@ Conventional real-time fracture methods often fail to account for the influence 
 + Visual Studio 2022
 + Python 3.13.12
 + You need to set **conda environment** (https://github.com/sgsellan/fracture-modes)
-+ Unreal Plugin - 'TcpSocket'
++ Unreal Plugin - 'TcpSocket'(https://www.fab.com/listings/48db4522-8a05-4b91-bcf8-4217a698339b)
+  - 'Blueprint Array Helper' (https://www.fab.com/listings/87af7b30-1635-4321-b1df-6e1f459cf855)
 
 ## Installation
 1. Set conda environment
@@ -58,4 +71,5 @@ Conventional real-time fracture methods often fail to account for the influence 
 
 <img width="2754" height="1022" alt="4" src="https://github.com/user-attachments/assets/9c9e549b-c04d-4625-94f9-b6d8c7d883ce" />
 
-
++ Baseline vs. Ours
+  - Unlike impact-only models that produce symmetric fragmentation , our method results in spatially biased patterns where regions close to the fire are finely shattered while distant regions remain in larger fragments.
