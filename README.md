@@ -37,6 +37,7 @@ Conventional real-time fracture methods often fail to account for the influence 
 + Visual Studio 2022
 + Python 3.13.12
 + You need to set **conda environment** (https://github.com/sgsellan/fracture-modes)
++ Unreal Plugin - 'TcpSocket'
 
 ## Installation
 1. Set conda environment
