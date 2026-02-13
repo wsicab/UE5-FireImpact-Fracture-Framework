@@ -57,10 +57,11 @@ The system operates through a synchronized three-layer architecture connected vi
 2. Open anaconda prompt and activate fracture-modes ((https://github.com/sgsellan/fracture-modes))
 3. Activate python code - **Unreal_tcp.py**.
    This is how to create a tcp communication network connecting Python and Unreal.
-4. Open Unreal Project
-5. Press play button.
+   Before that, please modify the model path to suit your path in 'Unreal_Fracture.py'.
+5. Open Unreal Project
+6. Press play button.
    *Please make sure that the procedural mesh blueprint object and tcp_table object are at the level.
-6. Run and Test
+7. Run and Test
    You can now run a simulation that catches fire, spreads, and then destroys it.
 
 ## Results
