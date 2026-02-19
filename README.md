@@ -53,14 +53,15 @@ The system operates through a synchronized three-layer architecture connected vi
   - 'Blueprint Array Helper' (https://www.fab.com/listings/87af7b30-1635-4321-b1df-6e1f459cf855)
 
 ## Installation
-1. Set conda environment
-2. Open anaconda prompt and activate fracture-modes ((https://github.com/sgsellan/fracture-modes))
-3. Activate python code - **Unreal_tcp.py**.
+1. Set conda environment (https://github.com/sgsellan/fracture-modes)
+2. Open anaconda prompt and activate fracture-modes.
+3. Enter the address where the Unreal project is located. (ex. cd C:\Users\yourName\yourRoute\Unreal Projects\FireImpact_Fracture)
+4. Activate python code - **Unreal_tcp.py**. (python Python/Unreal_tcp.py)
    This is how to create a tcp communication network connecting Python and Unreal.
-   Before that, please modify the model path to suit your path in 'Unreal_Fracture.py'.
-5. Open Unreal Project
+   Before that, please modify the model path to suit your path in 'Unreal_Fracture.py'. You can also modify the model you want to destroy.
+5. Open FireImpact_Fracture Unreal Project
 6. Press play button.
-   *Please make sure that the procedural mesh blueprint object and tcp_table object are at the level.
+   *Please make sure that the procedural mesh blueprint object named MyFractureActor01 and tcp_table3 object are at the level.
 7. Run and Test
    You can now run a simulation that catches fire, spreads, and then destroys it.
 
