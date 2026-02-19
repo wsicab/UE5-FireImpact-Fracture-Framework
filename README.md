@@ -69,10 +69,18 @@ The system operates through a synchronized three-layer architecture connected vi
 
 <img width="4400" height="1035" alt="2" src="https://github.com/user-attachments/assets/9b6c0980-767c-4f23-b854-1930be44f5f5" />
 
+Double the range of locality to be destroyed and reduce the destruction threshold to 0.25 to make destruction easier. (Parameters related to this setting can be modified in Python code.) The area around the palm where the fire broke out is broken into fine pieces, but the outside range is destroyed into large pieces.
+
 <img width="3895" height="1033" alt="3" src="https://github.com/user-attachments/assets/71d89b7b-d976-46b4-a2ff-5063cfe1138c" />
+
+A weakened part is created by the fire, and the weakened part is destroyed first, and the connected periphery is also destroyed.
 
 
 <img width="2754" height="1022" alt="4" src="https://github.com/user-attachments/assets/9c9e549b-c04d-4625-94f9-b6d8c7d883ce" />
 
 + Baseline vs. Ours
   - Unlike impact-only models that produce symmetric fragmentation , our method results in spatially biased patterns where regions close to the fire are finely shattered while distant regions remain in larger fragments.
+  - When the fire was started in the same manner, both the image of collision-based destruction (left) and the image of fire-based destruction (right) were destroyed by fire, but the impact-based destruction does not destroy the accumulated destruction path of the fire. Therefore, only a part of the bridge (the end) is destroyed. On the other hand, fire-based destruction proceeds with the destruction considering the accumulated fire history on the bridge. 
+
+
+The results of this simulation reflect material shrinkage due to flame propagation. Unlike the existing impact force-based model, the 'thermal crack path' formed by the flame distorts the impact energy flow, creating a destruction pattern similar to the actual accident site.
