@@ -48,7 +48,7 @@ The system operates through a synchronized three-layer architecture connected vi
 + UnrealEngine 5.0.3
 + Visual Studio 2022
 + Python 3.13.12
-+ You need to set **conda environment** (https://github.com/sgsellan/fracture-modes)
++ You must set **conda environment** (https://github.com/sgsellan/fracture-modes)
 + Unreal Plugin - 'TcpSocket'(https://www.fab.com/listings/48db4522-8a05-4b91-bcf8-4217a698339b)
   - 'Blueprint Array Helper' (https://www.fab.com/listings/87af7b30-1635-4321-b1df-6e1f459cf855)
 
